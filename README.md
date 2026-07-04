@@ -1,6 +1,7 @@
 <div align="center">
   <h1>🚀 WordPress Rust Accelerator (20x Boost)</h1>
   <p><b>An open-source initiative to rewrite WordPress core bottlenecks in Rust & C</b></p>
+  <p><img src="https://img.shields.io/badge/License-GPL%20v2-blue.svg" alt="License: GPL v2"></p>
 </div>
 
 ---
@@ -160,6 +161,16 @@ This project is in the active Proof of Concept (PoC) phase. Our upcoming targets
 - [ ] **MO/POMO Translator:** Replacing WordPress's pure PHP `.mo` file reader with a Rust-based Memory Mapped (`mmap`) zero-copy parser.
 - [ ] **Regex Routing (Rewrite Rules):** Replacing linear `preg_match` arrays in `class-wp-rewrite.php` with a high-speed Rust Regex Trie engine.
 - [ ] **Database Abstraction (`wpdb`):** Offloading row-to-object instantiations to native C memory buffers.
+
+---
+
+## 📄 License
+
+This project is licensed under the **GNU General Public License v2.0 (GPLv2)**. 
+
+Because this extension interfaces directly with the WordPress Core (which is also licensed under GPLv2 or later), this project proudly adopts the same license to maintain 100% compatibility and respect the open-source philosophy of the WordPress ecosystem.
+
+See the [LICENSE](LICENSE) file for more details.
 
 ---
 *Built with passion by the WordPress Performance Engineering Community.*
