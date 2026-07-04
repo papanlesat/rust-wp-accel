@@ -75,7 +75,7 @@ To build and run this accelerator, your server environment must meet the followi
 ### 1. Clone & Build the Rust Extension
 
 ```bash
-git clone https://github.com/your-org/rust-wp-accel.git
+git clone https://github.com/papanlesat/rust-wp-accel.git
 cd rust-wp-accel
 
 # Ensure libclang is in your path
